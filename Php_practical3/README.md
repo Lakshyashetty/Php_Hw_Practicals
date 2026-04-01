@@ -5,5 +5,3 @@
 ![alt text](Images/login.png)
 ![alt text](Images/home.png)
 ![alt text](Images/insert.png)
-![alt text](Images/update.png)
-![alt text](Images/delete.png)
