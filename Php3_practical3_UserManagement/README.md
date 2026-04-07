@@ -1,5 +1,5 @@
 # Php_Hw_Practicals 3
- ## <p align="center"> php_Hw3_User Management </p>
+ ## <p align="center"> php_User Management & Task Session Functinality </p>
 
 ## Register Page
 ![alt text](images/regi.png)
@@ -18,7 +18,7 @@
 ## Delete
 ![alt text](images/delete.png)
 ![alt text](images/after_delete.png)
-
+-----------------------------------------------------------
 ### Q4
 # task session functionality
 ![alt text](images/task_session_functionality.png)
