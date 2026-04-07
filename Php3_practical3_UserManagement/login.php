@@ -47,8 +47,8 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
              >
                 <div class="container">
                     <img
-                        src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-agriculture-logo-template-farm-logo-template-png-image_5180811.jpg"
-                        class="img-fluid rounded-circle"
+                     src="images/ls.jpeg"
+                    class="img-fluid rounded-circle"
                         height="80"   
                         width="80"
                         alt="my.rent"
@@ -58,9 +58,7 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
              
         </header>
         <main
-            <div
-                class="container col-md-5 my-5 p-2 border-rounded shadow"
-            >
+            <div class="container col-md-5 my-5 p-2 border-rounded shadow">
                 <h2 class="text-center">Login</h2>
                 <form action="" method="post">
                 <div class="mb-3">
@@ -89,8 +87,10 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
                     class="btn btn-primary w-100"
                 >
                     Submit
-                </button>   
+                </button>
+                </form>   
             </div>
+
         </main>
         <footer>
             <!-- place footer here -->

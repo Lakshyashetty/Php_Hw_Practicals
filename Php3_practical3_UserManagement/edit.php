@@ -47,11 +47,11 @@ if ($_SERVER["REQUEST_METHOD"]==="POST") {
         <header>
             <!-- place navbar here -->
              <nav
-                class="navbar navbar-expand-sm navbar-light bg-primary"
+                class="navbar navbar-expand-sm navbar-light bg-primary "
              >
              <img
-                        src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-agriculture-logo-template-farm-logo-template-png-image_5180811.jpg"
-                        class="img-fluid rounded-circle"
+                    src="images/ls.jpeg"
+             class="img-fluid rounded-circle mx-3"
                         height="80"   
                         width="80"
                         alt="Agro.rent"
@@ -78,19 +78,14 @@ if ($_SERVER["REQUEST_METHOD"]==="POST") {
                                     <span class="visually-hidden">(current)</span></a
                                 >
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="edit.php">Update</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="home.php">delete</a>
-                            </li>
+                            
                             
                         </ul>
                         <form class="d-flex my-2 my-lg-0">
                             <a
                                 name=""
                                 id=""
-                                class="btn btn-primary"
+                                class="btn btn-danger"
                                 href="logout.php"
                                 role="button"
                                 >Logout</a

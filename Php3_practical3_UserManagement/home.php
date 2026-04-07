@@ -41,6 +41,13 @@ if ($sql->execute()) {
              <nav
                 class="navbar navbar-expand-sm navbar-light bg-primary"
              >
+             <img              
+                    src="images/ls.jpeg"
+                        class="img-fluid rounded-circle  mx-3"
+                        height="80"   
+                        width="80"
+                        alt="Agro.rent"
+                    />
                 <div class="container">
                     
                     <h3>Hello<?= $_SESSION["uname"]?></h3>
@@ -63,19 +70,14 @@ if ($sql->execute()) {
                                     <span class="visually-hidden">(current)</span></a
                                 >
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="edit.php">Update</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="home.php">Delete</a>
-                            </li>
+                            
                             
                         </ul>
                         <form class="d-flex my-2 my-lg-0">
                             <a
                                 name=""
                                 id=""
-                                class="btn btn-primary"
+                                class="btn btn-danger"
                                 href="logout.php"
                                 role="button"
                                 >Logout</a
