@@ -129,6 +129,7 @@ if ($sql->execute()) {
                         <option value="completed">Completed</option>
                     </select>
                 </div>
+                form
                 <div class="mb-3">
                     <label for="" class="form-label">Start Date</label>
                     <input
