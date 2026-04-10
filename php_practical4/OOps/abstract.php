@@ -34,10 +34,10 @@ class GraduateStudent extends StudentRecord {
         return ($this->project * 0.5) + ($this->exam * 0.5);
     }
 }
-$ug = new UndergraduateStudent("Rahul", 80, 70);
-$grad = new GraduateStudent("Priya", 90, 85);
+$ug = new UndergraduateStudent("Laksh", 80, 70);
+$grad = new GraduateStudent("Rahul", 90, 85);
 
-echo $ug->name. "UG Grade: " . $ug->calculateGrade() . "<br>";
-echo "Graduate Grade: " . $grad->calculateGrade();
+echo $ug->name.":". "UG Grade: " . $ug->calculateGrade() . "<br>";
+echo $grad->name .":". "Graduate Grade: " . $grad->calculateGrade();
 
 ?>
